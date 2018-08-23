@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #fff;
+}
+
+.nav{
+  height: 72px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(7,17,27,.1);
+}
+
+header{
+  box-shadow: 0 6px 10px 0 rgba(7,17,27,.1);
+}
+
+.logo {
+  float: left;
+}
+
+.logo img{
+  height: 72px;
+  width: auto;
+}
+
+li{
+  list-style-type: none;
+  float: left;
+  line-height: 72px;
+  margin-right: 25px;
+  color: #4D555D;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+.search input{
+  height: 20px;
+  width: 200px;
+  border: 0 solid #fff;
+  border-bottom: 1px solid #D9DDE1;
+  padding: 10px 20px 10px 5px;
+  color: #71777d;
+  outline:none;
+}
+
+.search img{
+  position: relative;
+  top: 5px;
+  right: 23px;
+}
+
+.login{
+  float: right;
+  margin-right: 10px;
+}
+
+#registe{
+  margin-right: 40px;
+}
+
+.bg-banner{
+  padding-top: 40px;
+}
+
+.banner-box{
+  margin: auto;
+  overflow: hidden;
+  width: 1116px;
+  height: 444px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 20px 1px #7b828a;
+}
+
+.menuContent{
+  padding-top: 12px;
+  float: left;
+  width: 216px;
+  height: 444px; 
+  background: #2b333b;
+}
+.menuContent div{
+  position: relative;
+}
+
+.menuContent span{
+  height: 60px;
+  line-height: 60px;
+  font-size: 15px;
+  padding-left: 20px;
+  color: rgba(255,255,255,.6);
+}
+
+.menuContent i:before{
+  content: url(img/item-icon.png);
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.g-banner-content{
+  float: left;
+  width: 900px;
+  height: 444px;
+}
+
+.g-banner-content img{
+  width: auto;
+  height: 304px;
+}
+
+.path-banner div{
+  float: left;
+  width: 150px;
+  height: 140px;
+  text-align: center;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.path-banner i{
+  margin-top: 20px;
+  display: inline-block;
+  width:  36px;
+  height: 36px;
+  background-size: 100%;
+}
+
+.i-web{
+  background:url(img/path_new.png) 0 0;
+}
+.i-java{
+  background:url(img/path_new.png) 0 -72px;
+}
+.i-android{
+  background:url(img/path_new.png) 0 -108px;
+}
+.i-php{
+  background:url(img/path_new.png) 0 -36px;
+}
+.i-ios{
+  background:url(img/path_new.png) 0 -144px;
+}
+
+.path-banner p{
+  font-size: 13px;
+  word-break: break-all;
+  display: block;
+  -webkit-margin-before: 0.6em;
+  -webkit-margin-after: 0.6em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.bgfff{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
